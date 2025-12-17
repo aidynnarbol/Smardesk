@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# SmartDesk
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A posture monitoring and productivity tool that uses computer vision to promote healthy work habits.
 
-## Available Scripts
+**Demo Video:** https://youtu.be/98sITnyCk1I
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Students and office workers spend hours at computers with poor posture, leading to back pain and long-term health issues. SmartDesk addresses this by using webcam-based posture detection to provide real-time feedback and encourage healthy habits.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Target Audience:** Students, office workers, and anyone who spends extended time at a computer.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+### Posture Detection
+- Real-time analysis via webcam
+- Machine learning powered by TensorFlow.js
+- Instant notifications for poor posture
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Exercise Recommendations
+- 20+ exercises across 5 categories:
+  - Back and posture
+  - Eyes
+  - Legs and stretching
+  - Neck and shoulders
+  - Wrists and hands
+- GIF animations with instructions
+- Personalized suggestions based on detected issues
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Productivity Analytics
+- Time tracking across websites (study vs leisure)
+- Visual charts and statistics
+- Focus percentage calculation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### AI Assistant
+- Chat bot powered by GPT-4o-mini
+- Productivity and health advice
+- Rate-limited API usage
 
-### `npm run eject`
+### User System
+- Authentication via Firebase
+- Personal settings and preferences
+- Dark and light themes
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| Category | Technologies |
+|----------|--------------|
+| Frontend | React 19, Framer Motion |
+| Machine Learning | TensorFlow.js (pose-detection, face-landmarks) |
+| Backend | Express.js, OpenAI API |
+| Database | Firebase (Auth, Firestore, Storage) |
+| Data Visualization | Recharts |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Project Scope
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- 30+ React components
+- 20+ exercises with GIF demonstrations
+- 5 exercise categories
+- Real-time ML detection
+- 2 UI themes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Future Development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Break reminder notifications
+- Detailed posture improvement analytics over time
+- Smartwatch integration
+- Pomodoro timer mode
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Author
 
-### Making a Progressive Web App
+**Aidyn Narbol** — concept, design, UX/UI, project architecture
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Code developed with AI assistant (Claude) — task definition, testing, iterations.
 
-### Advanced Configuration
+GitHub: [@aidynnarbol](https://github.com/aidynnarbol)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT License
