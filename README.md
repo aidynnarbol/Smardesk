@@ -2,7 +2,7 @@
 
 A posture monitoring and productivity tool that uses computer vision to promote healthy work habits.
 
-**Live Demo:** smardesk.vercel.app
+**Live Demo:** https://smardesk.vercel.app/welcome
 
 **Demo Video:** https://youtu.be/98sITnyCk1I
 
