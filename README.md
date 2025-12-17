@@ -1,7 +1,9 @@
 # SmartDesk
 
 A posture monitoring and productivity tool that uses computer vision to promote healthy work habits.
+
 **Live Demo:** smardesk.vercel.app
+
 **Demo Video:** https://youtu.be/98sITnyCk1I
 
 ---
