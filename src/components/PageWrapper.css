@@ -1,0 +1,7 @@
+.page-wrapper {
+  padding: 20px;
+  min-height: calc(100vh - 60px); /* учитывая высоту Navbar */
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
